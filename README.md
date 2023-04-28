@@ -16,7 +16,7 @@ The proposed BERTG model captures both the local structural information, and the
 The code in the [code notebook](./BERTG.ipynb) is organised to first show baseline BERT model, then how it is finetuned, graph creation, Baseline GCN model based on created graph using pretrained BERT embeddings, GCN model based on finetuned BERT Embeddings and finally the BERTG architecture that has Graph augmented BERT embeddings passed to an MLP for text classification
 
 ## Empirical analysis of our approach
-<img width="546" alt="image" src="https://user-images.githubusercontent.com/93538009/235262555-7f100015-2afd-4670-88eb-5aec8e5cc6d1.png">
+<img width="846" alt="image" src="https://user-images.githubusercontent.com/93538009/235262555-7f100015-2afd-4670-88eb-5aec8e5cc6d1.png">
 
 - The graph augmented BERTG model outperforms the BERT models, which shows that graph embeddings carry meaningful information useful for the text        classification task.
 - BERT models outperform the GCN models on both pretrained and finetuned approaches, and across both the 10% and 30% training sample sizes. Therefore, contextual embeddings captures by BERT is more important than the local structural information that GCN captures.
@@ -26,7 +26,7 @@ compared to the 30% training sample size (-0.0039). This shows that graph embedd
 - Across all the models the accuracy score is higher than the f1 score due to the imbalance in the class distribution of the dataset. As more data points
 belong to the same class (4 and 5), achieving higher accuracy is easier than achieving a higher f1 score.
 
-<div><img width="300" alt="image" src="https://user-images.githubusercontent.com/93538009/235262657-62e6d590-280a-4852-98e5-d283ee3248e3.png"> <img width="300" alt="image" src="https://user-images.githubusercontent.com/93538009/235262612-35748119-2709-441c-9975-b05b6d05e723.png"></div>
+<div><img width="500" alt="image" src="https://user-images.githubusercontent.com/93538009/235262657-62e6d590-280a-4852-98e5-d283ee3248e3.png"> <img width="500" alt="image" src="https://user-images.githubusercontent.com/93538009/235262612-35748119-2709-441c-9975-b05b6d05e723.png"></div>
 Thus, proposed Finetuned BERTG model outperforms all other baselines.
 
 ## Conclusion
@@ -36,6 +36,6 @@ In this project, we implement the BERTG model which captures both the contextual
 - Some document-word edges and all word-word edges were dropped to reduce the complexity of the graph. Analysing the performance of the model on the whole graph without removing any edges is a potential future work.
 - In this project, the BERT embeddings and graph embeddings are directly concatenated. Adding attention based weights to balance between the BERT and graph embeddings can help in improving the model’s performance
 
-##Summary of Contributions
+## Summary of Contributions
 <img width="902" alt="image" src="https://user-images.githubusercontent.com/93538009/235265341-972a0ceb-c3e8-455b-ae90-7501e40ade50.png">
 
