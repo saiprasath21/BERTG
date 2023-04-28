@@ -26,7 +26,7 @@ compared to the 30% training sample size (-0.0039). This shows that graph embedd
 - Across all the models the accuracy score is higher than the f1 score due to the imbalance in the class distribution of the dataset. As more data points
 belong to the same class (4 and 5), achieving higher accuracy is easier than achieving a higher f1 score.
 
-<div><img width="500" alt="image" src="https://user-images.githubusercontent.com/93538009/235262657-62e6d590-280a-4852-98e5-d283ee3248e3.png"> <img width="500" alt="image" src="https://user-images.githubusercontent.com/93538009/235262612-35748119-2709-441c-9975-b05b6d05e723.png"></div>
+<div><img width="400" alt="image" src="https://user-images.githubusercontent.com/93538009/235262657-62e6d590-280a-4852-98e5-d283ee3248e3.png"> <img width="400" alt="image" src="https://user-images.githubusercontent.com/93538009/235262612-35748119-2709-441c-9975-b05b6d05e723.png"></div>
 Thus, proposed Finetuned BERTG model outperforms all other baselines.
 
 ## Conclusion
