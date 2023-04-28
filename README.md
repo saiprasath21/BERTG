@@ -4,4 +4,11 @@ We propose the BERTG model that augments transformer based models with Graph Neu
 
 ## [Dataset](./Dataset/Software_5.json.gz)
 
-The dataset can be found in the CS7650_BERTG/Dataset/Software folder
+We use the“Software" category of the [Amazon reviews dataset](https://nijianmo.github.io/amazon/index.html)which has 12803 datapoints. We ignore all the user and rating metadata, and consider only the user’s text input for this project. The average length of the review is 175.98 words, with a total of 101170 unique words in the dataset. There are five different rating classes (1-5) in the dataset, and the distribution is: {1: 1500, 2: 719, 3: 1598, 4:
+3016, 5: 5971}.
+Samples:
+![image](https://user-images.githubusercontent.com/93538009/235259275-0add0de9-538b-4726-8e65-5d4368bb1f04.png)
+![image](https://user-images.githubusercontent.com/93538009/235259558-194e310c-d9e7-4f5e-8fb0-f00f1af6b933.png)
+![image](https://user-images.githubusercontent.com/93538009/235259591-56bfc0b5-e312-4a25-b216-845bd7e33f0b.png)
+
+
