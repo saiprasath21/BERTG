@@ -29,4 +29,10 @@ belong to the same class (4 and 5), achieving higher accuracy is easier than ach
 <div><img width="300" alt="image" src="https://user-images.githubusercontent.com/93538009/235262657-62e6d590-280a-4852-98e5-d283ee3248e3.png"> <img width="300" alt="image" src="https://user-images.githubusercontent.com/93538009/235262612-35748119-2709-441c-9975-b05b6d05e723.png"></div>
 Thus, proposed Finetuned BERTG model outperforms all other baselines.
 
+## Conclusion
+In this project, we implement the BERTG model which captures both the contextual embeddings using a BERT model, and the local structural and sequential information using GCN for the text classification task. We show that the proposed model outperforms existing baselines on the Amazon Reviews Software dataset.
+### Potential future works: 
+- In this project, we consider the document-word graph as a homogeneous graph without any node types and edge types. Analysing the performance of a heterogeneous document-word graph is a potential futurework.
+- Some document-word edges and all word-word edges were dropped to reduce the complexity of the graph. Analysing the performance of the model on the whole graph without removing any edges is a potential future work.
+- In this project, the BERT embeddings and graph embeddings are directly concatenated. Adding attention based weights to balance between the BERT and graph embeddings can help in improving the model’s performance
 
