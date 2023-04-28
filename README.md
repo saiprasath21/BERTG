@@ -9,6 +9,7 @@ We use the“Software" category of the [Amazon reviews dataset](https://nijianmo
 Samples:
 
 ![image](https://user-images.githubusercontent.com/93538009/235259275-0add0de9-538b-4726-8e65-5d4368bb1f04.png)
-![image](https://user-images.githubusercontent.com/93538009/235261638-d980c2f3-424e-4b1f-bad7-708f157f5a42.png)
+![image](https://user-images.githubusercontent.com/93538009/235261694-dce6b6ce-4334-4272-a2e2-ee68421730b6.png)
+
 
 
