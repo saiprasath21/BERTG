@@ -27,4 +27,7 @@ belong to the same class (4 and 5), achieving higher accuracy is easier than ach
 <div><img width="300" alt="image" src="https://user-images.githubusercontent.com/93538009/235262657-62e6d590-280a-4852-98e5-d283ee3248e3.png"> <img width="300" alt="image" src="https://user-images.githubusercontent.com/93538009/235262612-35748119-2709-441c-9975-b05b6d05e723.png"></div>
 The proposed BERTG model outperforms all other architectures.
 
+- Item 1
+- Item 2
+- Item 3
 
