@@ -17,13 +17,15 @@ The code in the [code notebook](./BERTG.ipynb) is organised to first show baseli
 
 ## Empirical analysis of our approach
 <img width="546" alt="image" src="https://user-images.githubusercontent.com/93538009/235262555-7f100015-2afd-4670-88eb-5aec8e5cc6d1.png">
-- The graph augmented BERTG model outperforms the BERT models, which shows that graph embeddings carry meaningful information useful for the text classification task.
+
+- The graph augmented BERTG model outperforms the BERT models, which shows that graph embeddings carry meaningful information useful for the text        classification task.
 - BERT models outperform the GCN models on both pretrained and finetuned approaches, and across both the 10% and 30% training sample sizes. Therefore, contextual embeddings captures by BERT is more important than the local structural information that GCN captures.
 - The difference between the accuracy score of the BERT Finetuned and BERTG Finetuned models is greater when only 10% training sample size (-0.0072)
 compared to the 30% training sample size (-0.0039). This shows that graph embeddings are particularly helpful when less labelled data is available. Similarly for the F1 score as well.
 - Across all the models, finetuned approach achieves better performance that the pretrained approach. 
 - Across all the models the accuracy score is higher than the f1 score due to the imbalance in the class distribution of the dataset. As more data points
 belong to the same class (4 and 5), achieving higher accuracy is easier than achieving a higher f1 score.
+
 <div><img width="300" alt="image" src="https://user-images.githubusercontent.com/93538009/235262657-62e6d590-280a-4852-98e5-d283ee3248e3.png"> <img width="300" alt="image" src="https://user-images.githubusercontent.com/93538009/235262612-35748119-2709-441c-9975-b05b6d05e723.png"></div>
 Thus, proposed Finetuned BERTG model outperforms all other baselines.
 
