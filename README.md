@@ -17,8 +17,7 @@ The code in the [code notebook](./BERTG.ipynb) is organised to first show baseli
 
 ## Empirical analysis of our approach
 <img width="546" alt="image" src="https://user-images.githubusercontent.com/93538009/235262555-7f100015-2afd-4670-88eb-5aec8e5cc6d1.png">
-<img width="568" alt="image" src="https://user-images.githubusercontent.com/93538009/235262657-62e6d590-280a-4852-98e5-d283ee3248e3.png">
-<img width="568" alt="image" src="https://user-images.githubusercontent.com/93538009/235262612-35748119-2709-441c-9975-b05b6d05e723.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/93538009/235262657-62e6d590-280a-4852-98e5-d283ee3248e3.png"> <img width="500" alt="image" src="https://user-images.githubusercontent.com/93538009/235262612-35748119-2709-441c-9975-b05b6d05e723.png">
 
 
 
