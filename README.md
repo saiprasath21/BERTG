@@ -7,8 +7,8 @@ We propose the BERTG model that augments transformer based models with Graph Neu
 We use the“Software" category of the [Amazon reviews dataset](https://nijianmo.github.io/amazon/index.html)which has 12803 datapoints. We ignore all the user and rating metadata, and consider only the user’s text input for this project. The average length of the review is 175.98 words, with a total of 101170 unique words in the dataset. There are five different rating classes (1-5) in the dataset, and the distribution is: {1: 1500, 2: 719, 3: 1598, 4:
 3016, 5: 5971}.
 Samples:
-![image](https://user-images.githubusercontent.com/93538009/235259275-0add0de9-538b-4726-8e65-5d4368bb1f04.png)
-![image](https://user-images.githubusercontent.com/93538009/235260520-d99e5186-f064-4740-b96d-12871cbf3be3.png)
 
+![image](https://user-images.githubusercontent.com/93538009/235259275-0add0de9-538b-4726-8e65-5d4368bb1f04.png)
+![image](https://user-images.githubusercontent.com/93538009/235261638-d980c2f3-424e-4b1f-bad7-708f157f5a42.png)
 
 
