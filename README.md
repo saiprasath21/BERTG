@@ -36,6 +36,3 @@ In this project, we implement the BERTG model which captures both the contextual
 - Some document-word edges and all word-word edges were dropped to reduce the complexity of the graph. Analysing the performance of the model on the whole graph without removing any edges is a potential future work.
 - In this project, the BERT embeddings and graph embeddings are directly concatenated. Adding attention based weights to balance between the BERT and graph embeddings can help in improving the model’s performance
 
-## Summary of Contributions
-<img width="896" alt="image" src="https://user-images.githubusercontent.com/93538009/235267739-0d12ea88-031e-4218-8d41-39109fcf75ea.png">
-
